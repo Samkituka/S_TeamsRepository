@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\bin\Debug\net5.0\MyDatabase.DataAccess.EF.deps.json
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\bin\Debug\net5.0\MyDatabase.DataAccess.EF.runtimeconfig.json
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\bin\Debug\net5.0\MyDatabase.DataAccess.EF.runtimeconfig.dev.json
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\bin\Debug\net5.0\MyDatabase.DataAccess.EF.dll
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\bin\Debug\net5.0\ref\MyDatabase.DataAccess.EF.dll
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\bin\Debug\net5.0\MyDatabase.DataAccess.EF.pdb
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\obj\Debug\net5.0\MyDatabase.DataAccess.EF.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\obj\Debug\net5.0\MyDatabase.DataAccess.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\obj\Debug\net5.0\MyDatabase.DataAccess.EF.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\obj\Debug\net5.0\MyDatabase.DataAccess.EF.AssemblyInfo.cs
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\obj\Debug\net5.0\MyDatabase.DataAccess.EF.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\obj\Debug\net5.0\MyDatabase.DataAccess.EF.dll
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\obj\Debug\net5.0\ref\MyDatabase.DataAccess.EF.dll
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\obj\Debug\net5.0\MyDatabase.DataAccess.EF.pdb
+C:\Users\admin\source\repos\MyDatabase.DataAccess.EF\MyDatabase.DataAccess.EF\obj\Debug\net5.0\MyDatabase.DataAccess.EF.genruntimeconfig.cache

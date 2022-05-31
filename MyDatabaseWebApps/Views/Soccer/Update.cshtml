@@ -1,0 +1,60 @@
+﻿@model SoccerViewModel  
+@using MyDatabase.DataAccess.EF.Models
+
+@{
+    string pageType = Model.CurrentSoccer.SoccerId > 0 ? "Update Soccer" : "Create Soccer";
+
+    ViewData["Title"] = $"SoccerSoccer Information | {pageType}";
+}
+
+<form action="~/Soccer/Index" method="post">
+    <div>
+        <div class="row">
+            <div class="col-6 offset-3 text-center">
+                <h1 class="display-4" style="margin: 20px 0px;">@pageType</h1>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-3 offset-md-3 form-group">
+                <label>SoccerTeams: </label>
+                <input type="text" class="form-control" name="SoccerTeams" value="@Model.CurrentSoccer.SoccerTeams" />
+            </div>
+            <div class="col-md-3 form-group">
+                <label>BestTeamPlayer: </label>
+                <input type="text" class="form-control" name="BestTeamPlayer" value="@Model.CurrentSoccer.BestTeamPlayer" />
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-3 offset-md-3 form-group">
+                <label>GamesPlayed: </label>
+                <input type="text"  class="form-control" name="GamesPlayed" value="@Model.CurrentSoccer.GamesPlayed" />
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-3 offset-md-3 form-group">
+                <label>GamesWon: </label>
+                <input type="text" class="form-control" name="GamesWon" value="@Model.CurrentSoccer.GamesWon  " />
+            </div>
+            <div class="form-row">
+                <div class="col-md-3 offset-md-3 form-group">
+                    <label>GamesLost: </label>
+                    <input type="text" class="form-control" name="GamesLost" value="@Model.CurrentSoccer.GamesLost    " />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-3 offset-md-3 form-group">
+                    <label>DatePlayed: </label>
+                    <input type="text" class="form-control" name="DatePlayed" value="@Model.CurrentSoccer.DatePlayed   " />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 offset-md-3">
+                    <button type="button" class="btn btn-secondary" onclick="location.href = '/Soccer/Index'">CANCEL</button>
+                    <button type="submit" class="btn btn-primary">SAVE </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" name="SoccerId" value="@Model.CurrentSoccer.SoccerId" />
+</form>
+
